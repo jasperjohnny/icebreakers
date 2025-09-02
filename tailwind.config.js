@@ -10,6 +10,10 @@ export default {
           700: "#151B54", // darker midnight blue
         },
       },
+      fontFamily: {
+        sans: ['Quicksand', 'sans-serif'],
+        handwritten: ['Indie Flower', 'cursive'],
+      },
     },
   },
   plugins: [],
