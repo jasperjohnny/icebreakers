@@ -11,8 +11,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Quicksand', 'sans-serif'],
-        handwritten: ['Indie Flower', 'cursive'],
+        sans: ["Quicksand", "sans-serif"],
+        handwritten: ["Indie Flower", "cursive"],
       },
     },
   },

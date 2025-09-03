@@ -18,13 +18,13 @@ export const questionImages = {
   memory: "📸",
   culture: "🌏",
   inspiration: "💡",
-  friendship: "🤝"
+  friendship: "🤝",
 };
 
 // Function to get the most relevant image for a question
 export function getImageForQuestion(question) {
   const questionLower = question.toLowerCase();
-  
+
   if (questionLower.includes("superpower")) return questionImages.superpower;
   if (questionLower.includes("travel") || questionLower.includes("place") || questionLower.includes("world")) return questionImages.travel;
   if (questionLower.includes("food") || questionLower.includes("eat") || questionLower.includes("cook")) return questionImages.food;
@@ -45,7 +45,7 @@ export function getImageForQuestion(question) {
   if (questionLower.includes("culture") || questionLower.includes("tradition")) return questionImages.culture;
   if (questionLower.includes("inspire") || questionLower.includes("idea")) return questionImages.inspiration;
   if (questionLower.includes("friend") || questionLower.includes("together")) return questionImages.friendship;
-  
+
   // Default emoji if no specific match is found
   return "💬";
 }
